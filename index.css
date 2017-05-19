@@ -1,254 +1,280 @@
-    main {
-        background-color: white;
-        width: 75%;
-        height: 100%;
-        margin: auto;
-        padding: 5px;
-    }
-    
-    .container {
-        background-color: white;
-        width: 100%;
-        height: 100%;
-        margin: auto;
-        padding: 5px;
-    }
-    
-    .slider {
-        overflow: hidden;
-        height: 350px;
-    }
-    
-    .slider figure div {
-        width: 20%;
-        float: left;
-    }
-    
-    .slider figure img {
-        width: 100%;
-        float: left;
-    }
-    
-    .slider figure {
-        position: relative;
-        width: 500%;
-        margin: 0;
-        left: 0;
-        animation: 10s slidy infinite;
-    }
-    
-    body {
-        background-color: lightgreen;
-        margin: 0px;
-    }
-    
-    header {
-        display: flex;
-        justify-content: space-between;
-        height: 100px;
-    }
-    
-    .top-nav-wrapper img {
-        height: 30px;
-    }
-    
-    .menu {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        background-color: lightgray;
-        font-size: 15px;
-    }
-    
-    .menu ul {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        list-style: none;
-    }
-    
-    .input {
-        display: flex;
-        align-items: center;
-    }
-    
-    #s {
-        height: 90%;
-        width: 100px;
-        border: none;
-        border-radius: 0px;
-    }
-    
-    #loop {
-        width: 45px;
-        height: 50px;
-    }
-    
-    .categorie ul {
-        display: none;
-        margin: 0;
-        padding: 0;
-        position: absolute;
-        background-color: white;
-        border: 1px solid lightgray;
-    }
-    
-    .categorie ul li {
-        border: 1px solid lightgray;
-        padding: 5px 0px 5px 0px;
-    }
-    
-    .menu li:hover>ul {
-        display: block;
-    }
-    
-    .logos a img {
-        height: 30px;
-        width: 30px;
-        border-radius: 50px;
-    }
-    
-    .block2 {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        position: absolute;
-        right: 220px;
-        background-color: white;
-        width: 250px;
-        height: 250px;
-    }
-    
-    .side_img {
-        width: 100%;
-    }
-    
-    .logos {
-        display: flex;
-        flex-direction: row;
-        padding-top: 150px;
-    }
-    
-    .inside {
-        display: flex;
-        flex-direction: column;
-        width: 30%;
-        padding-top: 200px;
-        height: 200px;
-    }
-    
-    .dog ul li {
-        list-style-type: none;
-        color: brown;
-        margin: 0.5em;
-    }
-    
-    h1 {
-        color: brown;
-        font: 400 32px/38px "Arvo", arial, sans-serif;
-    }
-    
-    li:hover {
-        cursor: default;
-    }
-    
-    .text {
-        display: flex;
-        flex-direction: column;
-        width: 60%;
-    }
-    
-    #nls-email {
-        width: 170px;
-        height: 35px;
-        color: black;
-        background-color: lightgray;
-        border: none;
-        border-radius: 5px;
-    }
-    
-    #button {
-        width: 150px;
-        height: 40px;
-        color: white;
-        background-color: brown;
-        border: none;
-        border-radius: 5px;
-    }
-    
-    #formulaire {
-        display: flex;
-        flex-direction: row;
-    }
-    
-    .table {
-        border-radius: 10px;
-        border: 5px solid lightgrey;
-        width: 65%;
-    }
-    
-    .table2 {
-        border-radius: 10px;
-        border: 5px solid lightgrey;
-        width: 65%;
-        margin-top: 1em;
-    }
-    
-    h2 {
-        color: brown;
-        font: italic 20px/20px "Arvo", arial, sans-serif;
-    }
-    
-    .copyright h1 {
-        font: italic 20px/20px "Arvo", arial, sans-serif;
-        color: gray;
-    }
-    
-    footer {
-        margin-bottom: 20px;
-    }
-    
-    .in ul li {
-        width: 65%;
-        font: 100 14px/22px "Roboto Regular", arial, sans-serif;
-    }
-    
-    h3 {
-        font: italic 20px/20px "Arvo", arial, sans-serif;
-        color: #8a8a8a;
-    }
-    
-    h4 {
-        font: italic 20px/20px "Arvo", arial, sans-serif;
-        color: #8a8a8a;
-    }
-    
-    .box h4 {
-        border-radius: 5px solid lightgrey;
-        background-color: lightgray;
-        font: italic 20px/20px "Arvo", arial, sans-serif;
-        color: #8a8a8a;
-        width: 200px;
-        height: 25px;
-        padding-right: 1em;
-    }
-    
-    .box {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        position: absolute;
-        right: 220px;
-        background-color: white;
-        width: 250px;
-        height: 350px;
-    }
-    
-    p {
-        font: 100 14px/22px "Roboto Regular", arial, sans-serif;
-        width: 65%;
-    }
-    /*/
+main {
+    background-color: white;
+    width: 75%;
+    height: 100%;
+    margin: auto;
+    padding: 5px;
+}
+
+.container {
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    padding: 5px;
+}
+
+.slider {
+    overflow: hidden;
+    height: 350px;
+}
+
+.slider figure div {
+    width: 20%;
+    float: left;
+}
+
+.slider figure img {
+    width: 100%;
+    float: left;
+}
+
+.slider figure {
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: 10s slidy infinite;
+}
+
+body {
+    background-color: lightgreen;
+    margin: 0px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+}
+
+.top-nav-wrapper img {
+    height: 30px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: lightgray;
+    font-size: 12px;
+}
+
+.menu ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+}
+
+.menu>ul>li {
+    border-right: 1px dotted black;
+    margin-left: 6px;
+    padding-right: 6px;
+}
+
+.input {
+    display: flex;
+    align-items: center;
+}
+
+#s {
+    height: 90%;
+    width: 100px;
+    border: none;
+    border-radius: 0px;
+}
+
+#loop {
+    width: 45px;
+    height: 50px;
+}
+
+.categorie ul {
+    display: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    background-color: white;
+    border: 1px solid lightgray;
+}
+
+.categorie ul li {
+    border: 1px solid lightgray;
+    padding: 5px 0px 5px 0px;
+}
+
+.menu li:hover>ul {
+    display: block;
+}
+
+.logos a img {
+    height: 30px;
+    width: 30px;
+    border-radius: 50px;
+}
+
+.block2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    right: 170px;
+    background-color: white;
+    width: 340px;
+    height: 250px;
+}
+
+.side_img {
+    width: 100%;
+}
+
+.logos {
+    display: flex;
+    flex-direction: row;
+    padding-top: 150px;
+}
+
+.inside {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    padding-top: 200px;
+    height: 200px;
+}
+
+.dog ul li {
+    list-style-type: none;
+    color: brown;
+    margin: 0.5em;
+}
+
+.dog ul {
+    padding: 0;
+}
+
+h1 {
+    color: brown;
+    font: 400 32px/38px "Arvo", arial, sans-serif;
+}
+
+li:hover {
+    cursor: default;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+#nls-email {
+    width: 170px;
+    height: 35px;
+    color: black;
+    background-color: lightgray;
+    border: none;
+    border-radius: 5px;
+}
+
+#button {
+    width: 150px;
+    height: 40px;
+    color: white;
+    background-color: brown;
+    border: none;
+    border-radius: 5px;
+}
+
+#formulaire {
+    display: flex;
+    flex-direction: row;
+}
+
+.table {
+    border-radius: 10px;
+    border: 5px solid lightgrey;
+    width: 65%;
+}
+
+.table2 {
+    border-radius: 10px;
+    border: 5px solid lightgrey;
+    width: 65%;
+    margin-top: 1em;
+}
+
+h2 {
+    color: brown;
+    font: italic 20px/20px "Arvo", arial, sans-serif;
+}
+
+footer {
+    margin-bottom: 20px;
+}
+
+.footer_copyright h2 {
+    margin: 1em auto 0;
+    color: #636363;
+    font: 400 28px/28px "Arvo", arial, sans-serif;
+}
+
+.in ul li {
+    width: 65%;
+    font: 100 14px/22px "Roboto Regular", arial, sans-serif;
+}
+
+h3 {
+    font: italic 20px/20px "Arvo", arial, sans-serif;
+    color: #8a8a8a;
+}
+
+h4 {
+    font: italic 20px/20px "Arvo", arial, sans-serif;
+    color: #8a8a8a;
+}
+
+.box h4 {
+    border-radius: 5px solid lightgrey;
+    background-color: lightgray;
+    font: italic 20px/20px "Arvo", arial, sans-serif;
+    color: #8a8a8a;
+    width: 200px;
+    height: 55px;
+    padding-right: 1em;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    right: 220px;
+    background-color: white;
+    width: 250px;
+    height: 350px;
+}
+
+.box img {
+    width: 300px;
+    height: 350px;
+}
+
+p {
+    font: 100 14px/22px "Roboto Regular", arial, sans-serif;
+    width: 65%;
+}
+
+p a {
+    color: brown;
+    text-decoration: none;
+}
+
+
+/*/
 #star-five {
         margin: 50px 0;
         position: relative;
