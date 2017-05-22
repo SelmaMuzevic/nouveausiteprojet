@@ -26,13 +26,13 @@
 
             <div class="menu">
                 <ul>
-                    <li>Adopt</li>
+                    <li class="hover">Adopt</li>
 
-                    <li>Dog breeds</li>
+                    <li class="hover">Dog breeds</li>
 
-                    <li>Dog Matchup</li>
+                    <li class="hover">Dog Matchup</li>
 
-                    <li>Puppies</li>
+                    <li class="hover">Puppies</li>
 
                     <li class="categorie">Dog Names
                         <ul>
@@ -85,7 +85,7 @@
                             <li>ACTIVITIES</li>
                         </ul>
                     </li>
-                    <li>Reviews</li>
+                    <li class="hover">Reviews</li>
                 </ul>
                 <div class="input">
                     <input type="text" id="s" placeholder="Search">
@@ -118,17 +118,54 @@
                 <input id="button" type="submit" value="Sign Up">
             </form>
             <img src="breed-center-300x90.gif" alt="">
-        </div>
-        <div class="w3-content w3-section">
 
-            <img class="mySlides w3-animate-fading" src="puppi1.jpg" alt="" width="600" height="500">
-            <img class="mySlides w3-animate-fading" src="puppi2.jpg" alt="" width="600" height="500">
-            <img class="mySlides w3-animate-fading" src="puppi3.jpg" alt="" width="600" height="500">
-            <img class="mySlides w3-animate-fading" src="puppi4.jpg" alt="" width="600" height="500">
-            <img class="mySlides w3-animate-fading" src="puppi6.jpg" alt="" width="600" height="500">
-            <img class="mySlides w3-animate-fading" src="puppi6.jpg" alt="" width="600" height="500">
-            <img class="mySlides w3-animate-fading" src="puppi7.jpg" alt="" width="600" height="500">
-            <img class="mySlides w3-animate-fading" src="puppi8.jpg" alt="" width="600" height="500">
+            <div class="tab">
+
+                <section class="breed">
+                    <h3>Breed Profile Finder</h3>
+                </section>
+
+
+                <table>
+
+                    <tr>
+                        <td>Affenpinscher</td>
+                    </tr>
+                    <tr>
+                        <td>Afghan Hound</td>
+                    </tr>
+                    <tr>
+                        <td>Alaskan Malamute</td>
+                    </tr>
+                    <tr>
+                        <td>Beagle</td>
+                    </tr>
+                    <tr>
+                        <td>Belgian Malinois</td>
+                    </tr>
+                    <tr>
+                        <td>Boston Terrier</td>
+                    </tr>
+                    <tr>
+                        <td>Dalmatian</td>
+                    </tr>
+                    <tr>
+                        <td>Field Spaniel</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <div class="content">
+
+            <img class="mySlides" src="puppi1.jpg" alt="" width="600" height="500">
+            <img class="mySlides" src="puppi2.jpg" alt="" width="600" height="500">
+            <img class="mySlides" src="puppi3.jpg" alt="" width="600" height="500">
+            <img class="mySlides" src="puppi4.jpg" alt="" width="600" height="500">
+            <img class="mySlides" src="puppi6.jpg" alt="" width="600" height="500">
+            <img class="mySlides" src="puppi6.jpg" alt="" width="600" height="500">
+            <img class="mySlides" src="puppi7.jpg" alt="" width="600" height="500">
+            <img class="mySlides" src="puppi8.jpg" alt="" width="600" height="500">
 
         </div>
         <div class="dog">
@@ -156,6 +193,7 @@
             <img src="samoyed-dog.jpg" alt="">
 
         </div>
+
 
         <div class="box">
             <h4>Around the Web</h4>
@@ -317,7 +355,8 @@
             <div class="footer_copyright">
 
                 <h2>Around the Web</h2>
-                <ul>
+
+                <ul class="bottom">
                     <li>Most Popular Pages: Dog BreedsAdopt a DogDog MatchupDog TrainingProduct ReviewsPuppies</li>
                 </ul>
                 <ul>
@@ -327,26 +366,25 @@
                     <li> About DogTime Terms & Conditions Privacy Policy Contact Us Advertise image: http://c.betrad.com/pub/icon1.png AdChoices
                     </li>
                 </ul>
-
-
         </footer>
     </main>
     <script>
-        let myIndex = 0;
+        var myIndex = 0;
         carousel();
 
         function carousel() {
-            let i;
-            let x = document.getElementsByClassName("mySlides");
+            var i;
+            var x = document.getElementsByClassName("mySlides");
             for (i = 0; i < x.length; i++) {
                 x[i].style.display = "none";
             }
+
             myIndex++;
             if (myIndex > x.length) {
                 myIndex = 1
             }
             x[myIndex - 1].style.display = "block";
-            setTimeout(carousel, 9000);
+            setTimeout(carousel, 2000);
         }
     </script>
 
