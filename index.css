@@ -6,6 +6,11 @@ main {
     padding: 5px;
 }
 
+.red {
+    color: brown;
+    font: normal 20px/22px "Arvo Bold", arial, sans-serif;
+}
+
 .container {
     background-color: white;
     width: 100%;
@@ -34,11 +39,6 @@ main {
     width: 500%;
     margin: 0;
     left: 0;
-}
-
-.fade {
-    animation-name: slidephotos;
-    animation-duration: 0.2s;
 }
 
 @keyframes slidephotos {
@@ -125,7 +125,7 @@ header {
 
 .categorie ul li {
     border: 1px solid lightgray;
-    padding: 10px 0px 10px 0px;
+    padding: 20px 5px 20px 5px;
     color: black;
 }
 
@@ -144,10 +144,10 @@ header {
     flex-direction: column;
     justify-content: center;
     position: absolute;
-    right: 170px;
+    right: 200px;
     background-color: white;
-    width: 340px;
-    height: 250px;
+    width: 240px;
+    padding-left: 20px;
 }
 
 .side_img {
@@ -219,12 +219,10 @@ li:hover {
 .table {
     border-radius: 10px;
     border: 5px solid lightgrey;
-    width: 65%;
+    width: 60%;
 }
 
 .tab {
-    border: 1px solid black;
-    border-radius: 12px;
     margin-top: 2em;
     width: 335px;
     height: 350px;
@@ -233,7 +231,7 @@ li:hover {
 .table2 {
     border-radius: 10px;
     border: 5px solid lightgrey;
-    width: 65%;
+    width: 60%;
     margin-top: 1em;
 }
 
@@ -242,7 +240,7 @@ li:hover {
     background: #a71c20;
     border-radius: 5px;
     text-align: center;
-    width: 97%;
+    width: 70%;
     display: block;
     margin: 0;
     padding: 2% 2%;
@@ -250,6 +248,8 @@ li:hover {
     padding: 5px;
     font-style: italic;
 }
+
+.breed2 {}
 
 h2 {
     color: brown;
@@ -296,9 +296,9 @@ h4 {
     flex-direction: column;
     justify-content: center;
     position: absolute;
-    right: 220px;
+    right: 190px;
     background-color: white;
-    width: 250px;
+    width: 280px;
     height: 350px;
 }
 
