@@ -1,9 +1,8 @@
 main {
     background-color: white;
     width: 75%;
-    height: 100%;
     margin: auto;
-    padding: 5px;
+    padding: 15px;
 }
 
 .red {
@@ -53,6 +52,7 @@ main {
 body {
     background-color: lightgreen;
     margin: 0px;
+    width: 100%
 }
 
 header {
